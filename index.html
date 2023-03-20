@@ -1,113 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio site</title>
+    <title>My Portfoili site</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <h1>Sharv's Component Library</h1>
-    <p>Adarsh Balak is attending a boot camp and i am going to make a library to make my all projects look good and
-        consistenet.</p>
-
-    <hr>
-
-    <h2>@topography.</h2>
-
-
-    <h1>This is the biggest heading.</h1>
-    <h2>This is the second best heading</h2>
-
-    <p>Let me show you the normal text. THis is the free floating and will wrap at hte end like a paragraph</p>
-    <small>This is the smallest of them all</small>
-
-    <hr>
-
-    <h2>@containter</h2>
-    <h3>fliud container</h3>
-    <p>This is a fluid container and it will go from end to end</p>
-
-    <h3>Centre container</h3>
-    <p>This is a centered container and it will go till specified width</p>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a href="/">Primary Link</a>
-    <a href="/">Secondary Link</a>
-
-    <hr>
-    <h2>@List</h2>
-    <h3>Unordered list</h3>
-    <ul>
-        <li>Item one</li>
-        <li>Item two</li>
-        <li>Item Three</li>
-    </ul>
-
-    <h3>Inline Item list</h3>
-    <ul>
-        <li>Inline Item One</li>
-        <li>Inline item Two</li>
-        <li>Inline item Three</li>
-    </ul>
-
-    <h3>Ordered List</h3>
-    <ol>
-        <li>Milk</li>
-        <li>Eggs</li>
-        <li>Bread</li>
-    </ol>
-
-    <hr>
-
-    <h3>@nav</h3>
-    <nav>
-        <div>iAmBrand</div>
-        <ul>
-            <li>
-                <a href="/">Home</a>
+    <!-- navigation panel -->
+    <nav class="navigation">
+        <div class="nav-brand">iAmBrand</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a class="link link-active" href="/">Home</a>
             </li>
-            <li>
-                <a href="/">Projects</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">Projects</a>
             </li>
-            <li>
-                <a href="/">About</a>
+            <li class="list-item-inline">
+                <a class="link" href="/">About</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <header>
-        <img src="Image/Hero.svg" alt="A vector Art">
-        <h2>Heading inside the header</h2>
+    <!-- header -->
+    <header class="header">
+        <img class="hero-img" src="Image/Hero.svg" alt="A vector Art">
+        <h2 class="container-centre hero-heading">Sharv the <span class="span">Web Developer</span></h2>
     </header>
-<hr>
-<h2>@Section</h2>
-    <section>
-         <h3>White Section</h3>
-        <p>This will be a white section</p>
+
+    <!--Section-->
+    <section class="section ow ">
+        <div class="container-centre">
+        <h1>technologies</h1>
+        <p>I'm familiar with HTML, CSS, Git, JavaScript, NodeJs, ReactJs, and Web Hosting.</p>
+        </div>
     </section>
 
-    <section>
-        <h3>Off White Section</h3>
-       <p>This will be a Grey section</p>
-   </section>
-<hr>
-<h2>@Footer</h2>
-   <footer>
-    <div>Some small heading inside footer</div>
-    <ul>
-        <li>SocialOne</li>
-        <li>SocialTwo</li>
-        <li>SocialThree</li>
-    </ul>
-   </footer>
-</body>
+    <section class="section container-centre">
+        <h1>projects</h1>
+        <p>I like to showcase my work so you can see my projects online.</p>
+        <a class="link-primary link" href="/">My Projects</a>
+    </section>
 
+</body>
 </html>
